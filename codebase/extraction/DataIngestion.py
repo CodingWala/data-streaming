@@ -10,8 +10,8 @@ class DataIngestion(BaseExtraction):
     StructField("open",DoubleType(),True), \
     StructField("high",DoubleType(),True), \
     StructField("low", DoubleType(), True), \
-    StructField("close", DoubleType(), True), \
     StructField("last", DoubleType(), True), \
+    StructField("close", DoubleType(), True), \
     StructField("total_trade_quantity", LongType(), True), \
     StructField("turnover_lacs", DoubleType(), True)
   ])
