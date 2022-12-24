@@ -1,8 +1,8 @@
 import os
-os.sys.path.append(os. getcwd())
+# os.sys.path.append(os.getcwd())
 from codebase.extraction.BaseExtraction import BaseExtraction
 from pyspark.sql.types import StructType,StructField,LongType,StringType, IntegerType,DateType,DoubleType
-
+--
 class DataIngestion(BaseExtraction):
   
   schema = StructType([ \
